@@ -21,12 +21,12 @@ public class TempSensorDevice extends BaseInstanceEnabler {
     private static final int MAX_MEASURED_VALUE = 5602;
     private static final int MIN_MEASURED_VALUE = 5601;
     private static final Random RANDOM = new Random();
-    //TempSensor sensor;
-    float sensor;
+    TempSensor sensor;
+    //float sensor;
     public TempSensorDevice() {
         // notify new date each 5 second
-        sensor = (float) Math.random();
-    	//sensor = new TempSensor();
+        //sensor = (float) Math.random();
+    	sensor = new TempSensor();
         Timer timer = new Timer("Device-Current Time");
         timer.schedule(new TimerTask() {
             @Override
@@ -90,12 +90,12 @@ public class TempSensorDevice extends BaseInstanceEnabler {
     
     private float getTemperature() {
     	try {
-  		/*	System.out.println("TEMP   :   " + this.sensor.getCelcius());
+  			System.out.println("TEMP   :   " + this.sensor.getCelcius());
   			//sensor.close();
   			return this.sensor.getCelcius();
-  			*/
-            System.out.println("TEMP   :   " + sensor);
-  		    return sensor;
+
+            /*System.out.println("TEMP   :   " + sensor);
+  		    return sensor;*/
 		}
 		catch(Throwable throwable) {
             throw new RuntimeException(throwable.getMessage(), throwable.getCause());
@@ -105,7 +105,7 @@ public class TempSensorDevice extends BaseInstanceEnabler {
     private float getMaxTemperature() {
         try {
             System.out.println("MAX TEMP   :   " + sensor);
-            return sensor;
+            return 30f;
         }
         catch(Throwable throwable) {
             throw new RuntimeException(throwable.getMessage(), throwable.getCause());
@@ -115,7 +115,7 @@ public class TempSensorDevice extends BaseInstanceEnabler {
     private float getMinTemperature() {
         try {
             System.out.println("MIN TEMP   :   " + sensor);
-            return sensor;
+            return 20f;
         }
         catch(Throwable throwable) {
             throw new RuntimeException(throwable.getMessage(), throwable.getCause());

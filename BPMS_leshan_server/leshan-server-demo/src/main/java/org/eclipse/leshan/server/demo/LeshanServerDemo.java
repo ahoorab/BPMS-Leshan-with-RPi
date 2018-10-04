@@ -20,6 +20,7 @@ package org.eclipse.leshan.server.demo;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.math.BigInteger;
 import java.net.BindException;
 import java.net.InetAddress;
@@ -63,6 +64,7 @@ import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.webapp.WebAppContext;
 import org.eclipse.leshan.LwM2m;
+import org.eclipse.leshan.core.model.LwM2mModel;
 import org.eclipse.leshan.core.model.ObjectLoader;
 import org.eclipse.leshan.core.model.ObjectModel;
 import org.eclipse.leshan.core.node.codec.DefaultLwM2mNodeDecoder;
@@ -79,6 +81,7 @@ import org.eclipse.leshan.server.demo.servlet.SecurityServlet;
 import org.eclipse.leshan.server.impl.FileSecurityStore;
 import org.eclipse.leshan.server.model.LwM2mModelProvider;
 import org.eclipse.leshan.server.model.StaticModelProvider;
+import org.eclipse.leshan.server.registration.Registration;
 import org.eclipse.leshan.server.security.EditableSecurityStore;
 import org.eclipse.leshan.util.Hex;
 import org.slf4j.Logger;
@@ -100,16 +103,7 @@ public class LeshanServerDemo {
 
     private static final Logger LOG = LoggerFactory.getLogger(LeshanServerDemo.class);
 
-    private final static String[] modelPaths = new String[] { "BPMS_objects.json",
-
-                            "Communication_Characteristics-V1_0.xml",
-
-                            "LWM2M_Lock_and_Wipe-V1_0.xml", "LWM2M_Cellular_connectivity-v1_0.xml",
-                            "LWM2M_APN_connection_profile-v1_0.xml", "LWM2M_WLAN_connectivity4-v1_0.xml",
-                            "LWM2M_Bearer_selection-v1_0.xml", "LWM2M_Portfolio-v1_0.xml", "LWM2M_DevCapMgmt-v1_0.xml",
-                            "LWM2M_Software_Component-v1_0.xml", "LWM2M_Software_Management-v1_0.xml",
-
-                            "Non-Access_Stratum_NAS_configuration-V1_0.xml" };
+    private final static String[] modelPaths = new String[] { "BPMS_objects.json","oma-objects-spec.json" };
 
     private final static String USAGE = "java -jar leshan-server-demo.jar [OPTION]";
 
@@ -336,12 +330,24 @@ public class LeshanServerDemo {
         }
 
         // Define model provider
-        List<ObjectModel> models = ObjectLoader.loadDefault();
+        /*List<ObjectModel> models = ObjectLoader.loadDefault();
         models.addAll(ObjectLoader.loadDdfResources("/models/", modelPaths));
         if (modelsFolderPath != null) {
             models.addAll(ObjectLoader.loadObjectsFromDir(new File(modelsFolderPath)));
         }
-        LwM2mModelProvider modelProvider = new StaticModelProvider(models);
+        LwM2mModelProvider modelProvider = new StaticModelProvider(models);*/
+        LwM2mModelProvider modelProvider = new LwM2mModelProvider() {
+            @Override
+            public LwM2mModel getObjectModel(Registration client) {
+                InputStream defaultSpec = LeshanServerDemo.class.getResourceAsStream("/models/oma-objects-spec.json");
+                InputStream bpmSpec = LeshanServerDemo.class.getResourceAsStream("/models/BPMS_objects.json");
+                List<ObjectModel> models = ObjectLoader.loadJsonStream(defaultSpec);
+                models.addAll(ObjectLoader.loadJsonStream(bpmSpec));
+                return new LwM2mModel(models);
+            }
+        };
+
+
         builder.setObjectModelProvider(modelProvider);
 
         // Set securityStore & registrationStore

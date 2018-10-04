@@ -22,6 +22,7 @@ import static org.eclipse.leshan.LwM2mId.*;
 import static org.eclipse.leshan.client.object.Security.*;
 
 import java.io.File;
+import java.io.InputStream;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.security.PrivateKey;
@@ -258,9 +259,11 @@ public class LeshanClientDemo {
         //
 
         // Initialize model
-        List<ObjectModel> models = ObjectLoader.loadDefault();
-        //models.addAll(ObjectLoader.loadDdfResources("/models", modelPaths));
-        models.addAll(ObjectLoader.loadJsonStream(LeshanClientDemo.class.getResourceAsStream("/models/BPMS_objects.json")));
+        InputStream defaultSpec = LeshanClientDemo.class.getResourceAsStream("/models/oma-objects-spec.json");
+        InputStream bpmSpec = LeshanClientDemo.class.getResourceAsStream("/models/BPMS_objects.json");
+        List<ObjectModel> models = ObjectLoader.loadJsonStream(defaultSpec);
+        models.addAll(ObjectLoader.loadJsonStream(bpmSpec));
+
 
         // Initialize object list
         ObjectsInitializer initializer = new ObjectsInitializer(new LwM2mModel(models));
