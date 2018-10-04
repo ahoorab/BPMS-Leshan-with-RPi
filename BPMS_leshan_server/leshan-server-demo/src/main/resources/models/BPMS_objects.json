@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Temperature",
+    "id": 3303,
+    "instancetype": "multiple",
+    "mandatory": true,
+    "description": "Temperature sensor, example units = Cel",
+    "resourcedefs": [
+      {
+        "id": 5700,
+        "name": "Sensor Value",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": true,
+        "type": "float",
+        "range": "",
+        "units": "Celsius",
+        "description": "Last or Current Measured Value from the Sensor"
+      },
+      {
+        "id": 5601,
+        "name": "Min Measured Value",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": true,
+        "type": "float",
+        "range": "",
+        "units": "Celsius",
+        "description": "The minimum value measured by the sensor since power ON or reset"
+      },
+      {
+        "id": 5602,
+        "name": "Max Measured Value",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": true,
+        "type": "float",
+        "range": "",
+        "units": "Celsius",
+        "description": "The maximum value measured by the sensor since power ON or reset"
+      }
+    ]
+  },
+  {
+    "name": "Actuation",
+    "id": 3306,
+    "instancetype": "multiple",
+    "mandatory": true,
+    "description": "Actuator object with on/off control and proportional control",
+    "resourcedefs": [
+      {
+        "id": 5850,
+        "name": "On/Off",
+        "operations": "RW",
+        "instancetype": "single",
+        "mandatory": true,
+        "type": "boolean",
+        "range": "",
+        "units": "",
+        "description": "On/off control, 0=OFF, 1=ON"
+      }
+    ]
+  }
+]
