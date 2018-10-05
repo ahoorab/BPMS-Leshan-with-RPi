@@ -1,8 +1,6 @@
 package org.eclipse.leshan.client.demo;
 
-import java.util.Random;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 
 import org.eclipse.leshan.client.resource.BaseInstanceEnabler;
 import org.eclipse.leshan.core.node.LwM2mResource;
@@ -21,6 +19,7 @@ public class TempSensorDevice extends BaseInstanceEnabler {
     private static final int MAX_MEASURED_VALUE = 5602;
     private static final int MIN_MEASURED_VALUE = 5601;
     private static final Random RANDOM = new Random();
+    private static final ArrayList<Float> tempValueList = new ArrayList();
     TempSensor sensor;
     //float sensor;
     public TempSensorDevice() {
@@ -42,70 +41,34 @@ public class TempSensorDevice extends BaseInstanceEnabler {
         switch (resourceid) {
         case SENSOR_VALUE:
             return ReadResponse.success(resourceid, getTemperature());
-        case MIN_MEASURED_VALUE:
-            return ReadResponse.success(resourceid, getMaxTemperature());
         case MAX_MEASURED_VALUE:
+            return ReadResponse.success(resourceid, getMaxTemperature());
+        case MIN_MEASURED_VALUE:
             return ReadResponse.success(resourceid, getMinTemperature());
         default:
             return super.read(resourceid);
         }
     }
 
-    /*@Override
-    public ExecuteResponse execute(int resourceid, String params) {
-        LOG.info("Execute on Device resource " + resourceid);
-        switch (resourceid) {
-        case 2:
-            return LedController.switchOnLed();
-        case 3:
-            return LedController.switchOffLed();
-        default:
-            return execute(resourceid, params);
-        }
 
-    }
-
-    @Override
-    public WriteResponse write(int resourceid, LwM2mResource value) {
-        LOG.info("Write on Device Resource " + resourceid + " value " + value);
-        switch (resourceid) {
-        case 5850:
-            //return WriteResponse.notFound();
-            String myVal = (String) value.getValue();
-            if (myVal=="1"){
-                LedController.switchOnLed();
-            }
-            else if (myVal=="0"){
-                LedController.switchOffLed();
-            }
-            fireResourcesChange(resourceid);
-            return WriteResponse.success();
-       
-        default:
-            return super.write(resourceid, value);
-        }
-    }*/
-
- 
-    
     private float getTemperature() {
     	try {
-  			System.out.println("TEMP   :   " + this.sensor.getCelcius());
-  			//sensor.close();
-  			return this.sensor.getCelcius();
-
-            /*System.out.println("TEMP   :   " + sensor);
-  		    return sensor;*/
-		}
-		catch(Throwable throwable) {
+	    System.out.println("TEMP   :   " + this.sensor.getCelcius());
+  	    //sensor.close();
+            tempValueList.add(this.sensor.getCelcius());
+  	    return this.sensor.getCelcius();
+	    /*System.out.println("TEMP   :   " + sensor);
+  	    return sensor;*/
+	}
+	catch(Throwable throwable) {
             throw new RuntimeException(throwable.getMessage(), throwable.getCause());
         }
     }
 
     private float getMaxTemperature() {
         try {
-            System.out.println("MAX TEMP   :   " + sensor);
-            return 30f;
+            System.out.println("MAX TEMP   :   " +  Collections.max(tempValueList));
+            return Collections.max(tempValueList);
         }
         catch(Throwable throwable) {
             throw new RuntimeException(throwable.getMessage(), throwable.getCause());
@@ -114,8 +77,8 @@ public class TempSensorDevice extends BaseInstanceEnabler {
 
     private float getMinTemperature() {
         try {
-            System.out.println("MIN TEMP   :   " + sensor);
-            return 20f;
+            System.out.println("MIN TEMP   :   " +  Collections.min(tempValueList));
+            return Collections.min(tempValueList);
         }
         catch(Throwable throwable) {
             throw new RuntimeException(throwable.getMessage(), throwable.getCause());

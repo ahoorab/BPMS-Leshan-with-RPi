@@ -89,7 +89,7 @@ public class ObservationManager implements ObservationListener{
         
         	for(Registration registration : RegistrationManager.registrations.values()) {
 				if(registration.getEndpoint().equals("raspberry")) {
-					if(Float.valueOf(data.getValue().toString())>0f) {
+					if(Float.valueOf(data.getValue().toString())>25f) {
 			        	//ExecuteRequest onled4 = new ExecuteRequest("3306/5850/1");
 						WriteRequest onled4 = new WriteRequest(3306,0,5850,"1");
 			        	 try {

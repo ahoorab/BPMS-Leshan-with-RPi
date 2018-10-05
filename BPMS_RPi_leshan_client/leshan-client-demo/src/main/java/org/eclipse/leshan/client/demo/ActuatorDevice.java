@@ -47,10 +47,10 @@ public class ActuatorDevice extends BaseInstanceEnabler {
             case ON_OFF:
                 //return WriteResponse.notFound();
                 String myVal = (String) value.getValue();
-                if (myVal=="1"){
+                if (myVal=="true"){
                     LedController.switchOnLed();
                 }
-                else if (myVal=="0"){
+                else if (myVal=="false"){
                     LedController.switchOffLed();
                 }
                 fireResourcesChange(resourceid);
@@ -60,17 +60,5 @@ public class ActuatorDevice extends BaseInstanceEnabler {
                 return super.write(resourceid, value);
         }
     }
-
-
-    /*private boolean getLedStatus() {
-        try {
-            System.out.println("Led Status   :   " + "0");
-            //sensor.close();
-            return false;
-        }
-        catch(Throwable throwable) {
-            throw new RuntimeException(throwable.getMessage(), throwable.getCause());
-        }
-    }*/
 
 }

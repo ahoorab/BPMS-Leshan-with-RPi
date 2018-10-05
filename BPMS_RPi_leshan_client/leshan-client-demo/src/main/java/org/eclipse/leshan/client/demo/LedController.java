@@ -33,11 +33,11 @@ public class LedController {
 	}
 
 	public static boolean getLedStatus(){
-        /*final GpioController gpio = GpioFactory.getInstance();
+        	final GpioController gpio = GpioFactory.getInstance();
 
-        final boolean ledPinStatus = (boolean) gpio.isHigh((GpioPinDigital) RaspiPin.GPIO_00);
-	    return ledPinStatus;
-	    */ return false;
+        	final boolean ledPinStatus = (boolean) gpio.isHigh((GpioPinDigital) RaspiPin.GPIO_00);
+	    	return ledPinStatus;
+	     	//return false;
     }
 
 }

@@ -1,7 +1,8 @@
-org/eclipse/leshan/client/demo/MyLocation.class
-org/eclipse/leshan/client/demo/RandomTemperatureSensor$1.class
-org/eclipse/leshan/client/demo/MyDevice$1.class
+org/eclipse/leshan/client/demo/TempSensorDevice$1.class
 org/eclipse/leshan/client/demo/LeshanClientDemo$1.class
-org/eclipse/leshan/client/demo/RandomTemperatureSensor.class
+org/eclipse/leshan/client/demo/MyDevice$1.class
+org/eclipse/leshan/client/demo/TempSensorDevice.class
+org/eclipse/leshan/client/demo/ActuatorDevice.class
+org/eclipse/leshan/client/demo/LedController.class
 org/eclipse/leshan/client/demo/LeshanClientDemo.class
 org/eclipse/leshan/client/demo/MyDevice.class

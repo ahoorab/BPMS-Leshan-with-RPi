@@ -44,7 +44,6 @@ Contributors:
         <module>leshan-core-cf</module>
         <module>leshan-client-core</module>
         <module>leshan-client-cf</module>
-        <module>leshan-integration-tests</module>
         <module>leshan-client-demo</module>
     </modules>
 
@@ -377,11 +376,16 @@ Contributors:
         <dependencies>
             <!-- Leshan Libraries -->
 
+           <dependency>
+            <groupId>apt.lab.rpi</groupId>
+            <artifactId>tempsensor</artifactId>
+             <version>1.0.0</version>
+	   </dependency>
             <dependency>
                 <groupId>com.pi4j</groupId>
                 <artifactId>pi4j-core</artifactId>
                 <version>1.2-SNAPSHOT</version>
-            </dependency>
+        </dependency>
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
