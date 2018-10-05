@@ -16,6 +16,11 @@ tsensor.jar
 ```
 
 ## Info
+#### General
+The objects used are IPSO compliant, based on the object model specified in OMA LightWeight M2M [1] Chapter 6, Identifiers and Resources.
+
+#### Pi4j Library
+a friendly object-oriented I/O API and implementation libraries for Java Programmers to access the full I/O capabilities of the Raspberry Pi platform
 #### PCB
 The PCB used has a Temperature Sensor LM335Z,an Analog to Digital Converter MCP3002 - 2.7V Dual Channel 0-Bit A/D Converter with SPI Serial Interface and some LEDs.
 
@@ -24,7 +29,7 @@ The tsensor.jar implements methods for easy interraction with the temperature se
 
 ## Characteristics of the System
 ```
-•   The Raspberry Pi is the Lightweight M2M client and sends to the server with the temperature value.
+•   The Raspberry Pi is the Lightweight M2M client and sends to the server with the temperature value every 5 seconds.
 •   The Laptop application is the Lightweight M2M server that can read and observe the sensor value.
 •   If the value exceeds a specific limit, the server then sends a message to the client to turn on a LED,the status of which the server can also read and observe. 
 ```
@@ -64,6 +69,7 @@ dpkg-deb -R pi4j-1.2-SNAPSHOT.deb tmp
 mvn install:install-file -Dfile=/home/pi/BPMS_RPi_leshan_client/tmp/opt/pi4j/lib/pi4j-core.jar -DgroupId=com.pi4j -DartifactId=pi4j-core -Dversion=1.2-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
 ```
 Change the IP of your LwM2M Server
+
 •  Get the maven dependencies needed for the project
 ```
 git clone https://github.com/eclipse/leshan.git
@@ -80,6 +86,7 @@ sudo java -jar leshan-client-demo-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 ## FYI
+
 #### LwM2M Protocol 
 [here](http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf) and [here](https://github.com/eclipse/leshan) 
 
@@ -88,5 +95,5 @@ sudo java -jar leshan-client-demo-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 
 
 
-Any feedback is appreciated.
+For any feedback or questions do not hesitate to contact me.
 
