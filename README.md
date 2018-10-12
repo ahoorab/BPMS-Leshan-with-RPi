@@ -32,6 +32,7 @@ The tsensor.jar implements methods for easy interraction with the temperature se
 •   The Raspberry Pi is the Lightweight M2M client and sends to the server with the temperature value every 5 seconds.
 •   The Laptop application is the Lightweight M2M server that can read and observe the sensor value.
 •   If the value exceeds a specific limit, the server then sends a message to the client to turn on a LED,the status of which the server can also read and observe. 
+•   LwM2M operations used:Write,Read,Observe
 ```
 
 ## Configuring the Laptop
@@ -42,6 +43,11 @@ git clone https://github.com/nikoshet/BPMS-Leshan-with-RPi.git
 Open the project ,compile and run
 
 ## Configuring the Raspberry Pi
+•  First do:
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
 •  To  get the folder:
 ```
 git clone https://github.com/nikoshet/BPMS-Leshan-with-RPi.git

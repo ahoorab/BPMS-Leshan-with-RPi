@@ -46,11 +46,11 @@ public class ActuatorDevice extends BaseInstanceEnabler {
         switch (resourceid) {
             case ON_OFF:
                 //return WriteResponse.notFound();
-                String myVal = (String) value.getValue();
-                if (myVal=="true"){
+                int myVal = (int) value.getValue();
+                if (myVal==1){
                     LedController.switchOnLed();
                 }
-                else if (myVal=="false"){
+                else if (myVal==0){
                     LedController.switchOffLed();
                 }
                 fireResourcesChange(resourceid);

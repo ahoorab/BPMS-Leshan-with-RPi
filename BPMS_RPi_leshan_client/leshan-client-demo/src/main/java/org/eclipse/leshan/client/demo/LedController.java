@@ -12,7 +12,6 @@ public class LedController {
 	public static ExecuteResponse switchOnLed() {
 		/** create gpio controller */
 		final GpioController gpio = GpioFactory.getInstance();
-
 		final GpioPinDigitalOutput ledPin = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_00 ,"LED_4", PinState.HIGH);
 		gpio.shutdown();
 		gpio.unprovisionPin(ledPin);
@@ -24,7 +23,6 @@ public class LedController {
 	public static ExecuteResponse switchOffLed() {
 		/** create gpio controller */
 		final GpioController gpio = GpioFactory.getInstance();
-
 		final GpioPinDigitalOutput ledPin = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_00 ,"LED_4", PinState.LOW);
 		gpio.shutdown();
 		gpio.unprovisionPin(ledPin);

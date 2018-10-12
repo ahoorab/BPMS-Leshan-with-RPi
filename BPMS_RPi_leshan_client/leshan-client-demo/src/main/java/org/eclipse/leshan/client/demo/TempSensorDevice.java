@@ -53,12 +53,13 @@ public class TempSensorDevice extends BaseInstanceEnabler {
 
     private float getTemperature() {
     	try {
-	    System.out.println("TEMP   :   " + this.sensor.getCelcius());
-  	    //sensor.close();
+	        System.out.println("TEMP   :   " + this.sensor.getCelcius());
+  	        //sensor.close();
             tempValueList.add(this.sensor.getCelcius());
-  	    return this.sensor.getCelcius();
-	    /*System.out.println("TEMP   :   " + sensor);
-  	    return sensor;*/
+  	        return this.sensor.getCelcius();
+	    //System.out.println("TEMP   :   " + sensor);
+	    //tempValueList.add(sensor);
+  	    //return sensor;
 	}
 	catch(Throwable throwable) {
             throw new RuntimeException(throwable.getMessage(), throwable.getCause());
