@@ -40,7 +40,7 @@ The tsensor.jar implements methods for easy interraction with the temperature se
 ```
 git clone https://github.com/nikoshet/BPMS-Leshan-with-RPi.git
 ```
-Open the project ,compile and run
+Open the project BPMS_leshan_server,compile and run(the main is on BPMS_leshan_server/leshan-server-demo folder).
 
 ## Configuring the Raspberry Pi
 •  First do:
