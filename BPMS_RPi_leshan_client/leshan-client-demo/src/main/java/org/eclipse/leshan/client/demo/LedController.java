@@ -1,6 +1,7 @@
 package org.eclipse.leshan.client.demo;
 import com.pi4j.io.gpio.*;
 import org.eclipse.leshan.core.response.ExecuteResponse;
+import com.pi4j.wiringpi.Gpio;
 
 public class LedController {
 	
@@ -29,14 +30,19 @@ public class LedController {
 		return ExecuteResponse.success();
 
 	}
+    public static boolean getLedStatus(){
 
-	public static boolean getLedStatus(){
-        	final GpioController gpio = GpioFactory.getInstance();
+        Gpio.pinMode( 17,Gpio.INPUT);
 
-        	final boolean ledPinStatus = (boolean) gpio.isHigh((GpioPinDigital) RaspiPin.GPIO_00);
-	    	return ledPinStatus;
-	     	//return false;
+        if (Gpio.digitalRead(17) == 0){
+            System.out.println("LED is  not switched off");
+            return false;
+        }else{
+            System.out.println("LED is switched on");
+            return true;
+        }
     }
+
 
 }
 
