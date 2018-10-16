@@ -46,12 +46,15 @@ public class ActuatorDevice extends BaseInstanceEnabler {
         switch (resourceid) {
             case ON_OFF:
                 //return WriteResponse.notFound();
-                int myVal = (int) value.getValue();
-                if (myVal==1){
+                boolean myVal = (boolean) value.getValue();
+                if (myVal==true){
                     LedController.switchOnLed();
                 }
-                else if (myVal==0){
+                else if (myVal==false){
                     LedController.switchOffLed();
+                }
+                else{
+                        System.out.println("Error on Write");
                 }
                 fireResourcesChange(resourceid);
                 return WriteResponse.success();
@@ -60,5 +63,6 @@ public class ActuatorDevice extends BaseInstanceEnabler {
                 return super.write(resourceid, value);
         }
     }
+
 
 }

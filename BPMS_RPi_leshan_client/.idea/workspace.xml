@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab3452b8-b7f1-4976-8f62-66ca8441588e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/pi4j_core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/tsensor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/tsensor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-cf/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-core/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/object/Security.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/object/Security.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseInstanceEnabler.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseInstanceEnabler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseObjectEnabler.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseObjectEnabler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ObjectEnabler.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ObjectEnabler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/BootstrapHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/BootstrapHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/RegistrationEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/RegistrationEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/ServerInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/ServerInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-core/target/test-classes/org/eclipse/leshan/client/util/LinkFormatHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-core/target/test-classes/org/eclipse/leshan/client/util/LinkFormatHelperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/.ActuatorDevice.java.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/.Compilation.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/.failure:.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/ActuatorDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/ActuatorDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/TempSensorDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/TempSensorDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LeshanClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LeshanClientDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/TempSensorDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/TempSensorDevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-core-cf/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapAsyncRequestObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapAsyncRequestObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapSyncRequestObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapSyncRequestObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-core/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-core/target/classes/org/eclipse/leshan/core/model/DDFFileParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-core/target/classes/org/eclipse/leshan/core/model/DDFFileParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mSingleResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mSingleResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_leshan_server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_leshan_server/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ab3452b8-b7f1-4976-8f62-66ca8441588e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/leshan-client-demo/target/" />
     <ignored path="$PROJECT_DIR$/leshan-server-demo/target/" />
     <ignored path="$PROJECT_DIR$/leshan-server-cf/target/" />
@@ -117,11 +88,11 @@
     <session id="103821967">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -153,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClientDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
+            <state relative-caret-position="4560">
               <caret line="288" column="3" selection-start-line="288" selection-start-column="3" selection-end-line="288" selection-end-column="3" />
             </state>
           </provider>
@@ -162,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/ActuatorDevice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="793">
+            <state relative-caret-position="722">
               <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -183,8 +154,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/TempSensorDevice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="320">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,7 +176,7 @@
         <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LedController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
-              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -250,7 +221,7 @@
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="926" />
+    <option name="width" value="1034" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -332,7 +303,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../DOCKER/bpms_leshan_server_and_client/BPMS_RPi_leshan_client" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15546875" />
     <property name="project.structure.side.proportion" value="0.43055555" />
@@ -432,9 +403,9 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="926" height="1053" extended-state="4" />
+    <frame x="67" y="27" width="1034" height="1053" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3806818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.347166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -506,6 +477,23 @@
     <entry file="file://$PROJECT_DIR$/leshan-client-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClientDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4560">
+          <caret line="288" column="3" selection-start-line="288" selection-start-column="3" selection-end-line="288" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/ActuatorDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/MyDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -520,37 +508,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/ActuatorDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LedController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClientDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="288" column="3" selection-start-line="288" selection-start-column="3" selection-end-line="288" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/TempSensorDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="320">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

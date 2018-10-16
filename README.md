@@ -45,8 +45,7 @@ Open the project BPMS_leshan_server,compile and run(the main is on BPMS_leshan_s
 ## Configuring the Raspberry Pi
 •  First do:
 ```
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 •  To  get the folder:
 ```
@@ -63,32 +62,29 @@ mvn -version
 ```
 •  For the tsensor.jar library:
 ```
-cd
-mvn install:install-file -Dfile=/home/pi/BPMS_RPi_leshan_client/tsensor.jar -DgroupId=apt.lab.rpi -DartifactId=tempsensor -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=/home/pi/BPMS-Leshan-with-RPi/BPMS_RPi_leshan_client/tsensor.jar -DgroupId=apt.lab.rpi -DartifactId=tempsensor -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true
 ```
 •  For the Pi4j library:
 Download the Pi4J Debian/Raspian installer package (.deb) using your web browser at the following URL:
 http://get.pi4j.com/download/pi4j-1.2-SNAPSHOT.deb
 ```
+cd BPMS-Leshan-with-RPi
 sudo dpkg -i pi4j-1.2-SNAPSHOT.deb
 dpkg-deb -R pi4j-1.2-SNAPSHOT.deb tmp
-mvn install:install-file -Dfile=/home/pi/BPMS_RPi_leshan_client/tmp/opt/pi4j/lib/pi4j-core.jar -DgroupId=com.pi4j -DartifactId=pi4j-core -Dversion=1.2-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=/home/pi/BPMS-Leshan-with-RPi/BPMS_RPi_leshan_client/tmp/opt/pi4j/lib/pi4j-core.jar -DgroupId=com.pi4j -DartifactId=pi4j-core -Dversion=1.2-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
 ```
 Change the IP of your LwM2M Server
 
 •  Get the maven dependencies needed for the project
 ```
-git clone https://github.com/eclipse/leshan.git
-cd lechan/
+cd BPMS-Leshan-with-RPi
 mvn clean install
-cd
 cd BPMS_RPi_leshan_client/leshan-client-demo
 mvn clean install
 ```
 •  To finally start the client
 ```
-cd target
-sudo java -jar leshan-client-demo-1.0.0-SNAPSHOT-jar-with-dependencies.jar
+sudo java -jar target/leshan-client-demo-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 ## FYI
