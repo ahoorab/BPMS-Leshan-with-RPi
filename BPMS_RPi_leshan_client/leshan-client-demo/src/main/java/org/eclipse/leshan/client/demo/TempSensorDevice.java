@@ -31,6 +31,8 @@ public class TempSensorDevice extends BaseInstanceEnabler {
             @Override
             public void run() {
                 fireResourcesChange(5700);
+		fireResourcesChange(5602);
+		fireResourcesChange(5601);
             }
         }, 5000, 5000);
     }

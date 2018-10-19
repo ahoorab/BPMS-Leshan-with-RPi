@@ -1,5 +1,5 @@
 # BPMS-Leshan-with-RPi
-Blood Pressure Monitoring System Simulator using the IoT Protocol Lightweight M2M  and Leshan server and client implementation in Java.
+Blood Pressure Monitoring System Simulator using the IoT Protocol Lightweight M2M  and Leshan server and client implementation in Java,with a Raspberry Pi as a simulated device. 
 
 ## Getting Started
 #### Equipment Used
@@ -56,8 +56,15 @@ git clone https://github.com/nikoshet/BPMS-Leshan-with-RPi.git
 wget http://www.mirrorservice.org/sites/ftp.apache.org/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
 sudo tar -xzvf apache-maven-3.3.9-bin.tar.gz -C /opt
 sudo edit /etc/profile.d/maven.sh
+```
+and enter
+```
 export M2_HOME=/opt/apache-maven-3.3.9
 export PATH=$PATH:$M2_HOME/bin
+```
+Quit and save from the editor.
+You can test that it is working with
+```
 mvn -version
 ```
 •  For the tsensor.jar library:
@@ -84,8 +91,10 @@ mvn clean install
 ```
 •  To finally start the client
 ```
-sudo java -jar target/leshan-client-demo-1.0.0-SNAPSHOT-jar-with-dependencies.jar
+sudo java -jar target/leshan-client-demo-1.0.0-SNAPSHOT-jar-with-dependencies.jar -ip YourServerIp
 ```
+and replace 'YourServerIp' with the ip of your leshan server.
+
 
 ## FYI
 

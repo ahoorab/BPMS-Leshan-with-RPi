@@ -65,10 +65,8 @@ public class LeshanClientDemo {
 
     private static TempSensorDevice tempSensorInstance;
 
-    
     public static void main(final String[] args) {
-	
-	
+
         // Define options for command line tools
         Options options = new Options();
 
@@ -110,8 +108,6 @@ public class LeshanClientDemo {
                 "The path to your client private key file.\nThe private key should be in PKCS#8 format (DER encoding).");
         options.addOption("spubk", true,
                 "The path to your server public key file.\n The public Key should be in SubjectPublicKeyInfo format (DER encoding).");
-	 options.addOption("ip", true, "The server ip address");
-
 
         HelpFormatter formatter = new HelpFormatter();
         formatter.setWidth(90);
@@ -178,17 +174,10 @@ public class LeshanClientDemo {
                 serverURI = "coap://" + cl.getOptionValue("u");
         } else {
             if (cl.hasOption("i") || cl.hasOption("cpubk"))
-                serverURI = "coaps://150.140.243.162:" + LwM2m.DEFAULT_COAP_SECURE_PORT;
+                serverURI = "coaps://localhost:" + LwM2m.DEFAULT_COAP_SECURE_PORT;
             else
-                serverURI = "coap://150.140.243.162:" + LwM2m.DEFAULT_COAP_PORT;
+                serverURI = "coap://localhost:" + LwM2m.DEFAULT_COAP_PORT;
         }
-
-	  if (cl.hasOption("ip")) {
-	      String serverIP = cl.getOptionValue("ip").toString();
-		System.out.println(" \n \n \n \n \n \n \n"+ serverIP + " \n \n \n \n \n \n");
-		 serverURI ="coap://" +serverIP+":"+ LwM2m.DEFAULT_COAP_PORT;
-
-	  }
 
         // get PSK info
         byte[] pskIdentity = null;
@@ -230,7 +219,7 @@ public class LeshanClientDemo {
         Float scaleFactor = 1.0f;
         // get initial Location
         if (cl.hasOption("pos")) {
-            try {
+150.140.243.172            try {
                 String pos = cl.getOptionValue("pos");
                 int colon = pos.indexOf(':');
                 if (colon == -1 || colon == 0 || colon == pos.length() - 1) {

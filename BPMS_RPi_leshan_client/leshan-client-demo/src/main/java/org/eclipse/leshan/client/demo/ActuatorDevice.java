@@ -33,7 +33,7 @@ public class ActuatorDevice extends BaseInstanceEnabler {
         LOG.info("Read on Device Resource " + resourceid);
         switch (resourceid) {
             case ON_OFF:
-                return ReadResponse.success(resourceid, getLedStatus());
+                return ReadResponse.success(resourceid, LedController.getLedStatus());
             default:
                 return super.read(resourceid);
         }
@@ -53,9 +53,9 @@ public class ActuatorDevice extends BaseInstanceEnabler {
                 else if (myVal==false){
                     LedController.switchOffLed();
                 }
-                else{
-                        System.out.println("Error on Write");
-                }
+		else{
+			System.out.println("Error on Write");
+		}
                 fireResourcesChange(resourceid);
                 return WriteResponse.success();
 
@@ -63,6 +63,5 @@ public class ActuatorDevice extends BaseInstanceEnabler {
                 return super.write(resourceid, value);
         }
     }
-
 
 }
