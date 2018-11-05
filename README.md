@@ -84,8 +84,6 @@ Change the IP of your LwM2M Server
 
 •  Get the maven dependencies needed for the project
 ```
-cd BPMS-Leshan-with-RPi
-mvn clean install
 cd BPMS_RPi_leshan_client/leshan-client-demo
 mvn clean install
 ```
