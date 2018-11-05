@@ -55,7 +55,7 @@ git clone https://github.com/nikoshet/BPMS-Leshan-with-RPi.git
 ```
 wget http://www.mirrorservice.org/sites/ftp.apache.org/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
 sudo tar -xzvf apache-maven-3.3.9-bin.tar.gz -C /opt
-sudo edit /etc/profile.d/maven.sh
+sudoedit /etc/profile.d/maven.sh
 ```
 and enter
 ```
