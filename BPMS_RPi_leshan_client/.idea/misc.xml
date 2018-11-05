@@ -5,11 +5,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-client-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/leshan-bsserver-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-client-cf/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-client-core/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-core-cf/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-core/pom.xml" />
         <option value="$PROJECT_DIR$/leshan-server-cf/pom.xml" />
         <option value="$PROJECT_DIR$/leshan-server-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/leshan-server-core/pom.xml" />

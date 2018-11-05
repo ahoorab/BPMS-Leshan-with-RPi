@@ -1,9 +1,0 @@
-Package: pi4j
-Version: 1.2~SNAPSHOT
-Section: misc
-Priority: optional
-Architecture: all
-Installed-Size: 2480
-Maintainer: Pi4J Support <support@pi4j.com>
-Description: Java library for IO access on the Raspberry Pi platform
-Homepage: http://www.pi4j.com/pi4j-distribution

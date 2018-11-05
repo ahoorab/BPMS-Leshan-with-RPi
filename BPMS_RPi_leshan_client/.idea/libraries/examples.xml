@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="examples">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../pi4j-1.2-SNAPSHOT/examples" />
+    </SOURCES>
+  </library>
+</component>

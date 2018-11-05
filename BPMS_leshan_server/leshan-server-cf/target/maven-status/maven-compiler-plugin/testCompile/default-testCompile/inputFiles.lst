@@ -1,6 +1,0 @@
-/home/metallica/Documents/JavaWorkspace/leshan-master(October_2018_Last_Update)/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/impl/CoapRequestBuilderTest.java
-/home/metallica/Documents/JavaWorkspace/leshan-master(October_2018_Last_Update)/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/impl/CaliforniumTestSupport.java
-/home/metallica/Documents/JavaWorkspace/leshan-master(October_2018_Last_Update)/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/impl/ObservationServiceTest.java
-/home/metallica/Documents/JavaWorkspace/leshan-master(October_2018_Last_Update)/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/LeshanServerBuilderTest.java
-/home/metallica/Documents/JavaWorkspace/leshan-master(October_2018_Last_Update)/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/LeshanBootstrapServerBuilderTest.java
-/home/metallica/Documents/JavaWorkspace/leshan-master(October_2018_Last_Update)/leshan-server-cf/src/test/java/org/eclipse/leshan/server/californium/impl/InMemoryRegistrationStoreTest.java

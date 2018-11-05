@@ -38,6 +38,50 @@
         "range": "",
         "units": "Celsius",
         "description": "The maximum value measured by the sensor since power ON or reset"
+      },
+      {
+        "id": 5603,
+        "name": "Min Range Value",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "float",
+        "range": "",
+        "units": "Defined by “Units” resource.",
+        "description": "The minimum value that can be measured by the sensor"
+      },
+      {
+        "id": 5604,
+        "name": "Max Range Value",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "float",
+        "range": "",
+        "units": "Defined by “Units” resource.",
+        "description": "The maximum value that can be measured by the sensor"
+      },
+      {
+        "id": 5605,
+        "name": "Reset Min and Max Measured Values",
+        "operations": "E",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "string",
+        "range": "",
+        "units": "",
+        "description": "Reset the Min and Max Measured Values to Current Value"
+      },
+      {
+        "id": 5701,
+        "name": "Sensor Units",
+        "operations": "R",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "string",
+        "range": "",
+        "units": "",
+        "description": "Measurement Units Definition e.g. “Cel” for Temperature in Celsius."
       }
     ]
   },
@@ -58,6 +102,50 @@
         "range": "",
         "units": "",
         "description": "On/off control, 0=OFF, 1=ON"
+      },      
+      {
+        "id": 5750,
+        "name": "Application Type",
+        "operations": "RW",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "string",
+        "range": "",
+        "units": "",
+        "description": "The Application type of the device, for example “Motion Closure”."
+      },
+      {
+        "id": 5851,
+        "name": "Dimmer",
+        "operations": "RW",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "integer",
+        "range": "0-100",
+        "units": "%",
+        "description": "This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage."
+      },
+      {
+        "id": 5852,
+        "name": "On Time",
+        "operations": "RW",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "integer",
+        "range": "",
+        "units": "sec",
+        "description": "The time in seconds that the device has been on. Writing a value of 0 resets the counter."
+      },
+      {
+        "id": 5853,
+        "name": "Muti-state Output",
+        "operations": "RW",
+        "instancetype": "single",
+        "mandatory": false,
+        "type": "string",
+        "range": "",
+        "units": "",
+        "description": "A string describing a state for multiple level output such as Pilot Wire"
       }
     ]
   }

@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.eclipse.leshan.integration.tests.SecurityTest
--------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 15.04 s - in org.eclipse.leshan.integration.tests.SecurityTest

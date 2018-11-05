@@ -9,11 +9,18 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/leshan-bsserver-demo/pom.xml" />
         <option value="$PROJECT_DIR$/leshan-client-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-core-cf/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-core/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-integration-tests/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-server-cf/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-server-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-server-core/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

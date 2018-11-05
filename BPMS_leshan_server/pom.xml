@@ -40,14 +40,7 @@ Contributors:
     </licenses>
 
     <modules>
-        <module>leshan-core</module>
-        <module>leshan-core-cf</module>
-        <module>leshan-server-core</module>
-        <module>leshan-server-cf</module>
-        <module>leshan-server-cluster</module>
-        <module>leshan-integration-tests</module>
-        <module>leshan-server-demo</module>
-        <module>leshan-bsserver-demo</module>
+        <module>leshan-server-bpms</module>
     </modules>
 
     <scm>

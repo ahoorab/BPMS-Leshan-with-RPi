@@ -2,26 +2,690 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce4a7cc1-c4e6-4063-98f4-edf70a052cd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LedActuator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LedSwitch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LeshanClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LeshanClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/TemperatureSensor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/TemperatureSensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/libraries/pi4j_core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/object/Security.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/object/Security.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseInstanceEnabler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseInstanceEnabler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseObjectEnabler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseObjectEnabler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ObjectEnabler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ObjectEnabler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/BootstrapHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/BootstrapHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/RegistrationEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/RegistrationEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/ServerInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/ServerInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/test-classes/org/eclipse/leshan/client/util/LinkFormatHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/test-classes/org/eclipse/leshan/client/util/LinkFormatHelperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/TempSensorDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/TempSensorDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LeshanClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LeshanClientDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/TempSensorDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/TempSensorDevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapAsyncRequestObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapAsyncRequestObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapSyncRequestObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapSyncRequestObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/DDFFileParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/DDFFileParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mSingleResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mSingleResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/LICENSE-edl-v1.0.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/LICENSE.epl-v1.0.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/eclipse/eclipse-code-style.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/eclipse/settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/eclipse/settings/org.eclipse.core.runtime.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/eclipse/settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/eclipse/settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-all/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-bpms/target/Californium.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-bpms/target/classes/org/eclipse/leshan/client/demo/LeshanClientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-bpms/target/classes/org/eclipse/leshan/client/demo/TempSensorDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-bpms/target/leshan-client-demo-1.0.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-bpms/target/leshan-client-demo-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-bpms/target/leshan-client-demo-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/LeshanClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/LeshanClientBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/BootstrapResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/CaliforniumEndpointsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/CaliforniumLwM2mRequestSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/CoapRequestBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/LwM2mClientResponseBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/ObjectResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/ResourceObserveFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/ResourceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/RootResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/impl/SecurityObjectPskStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/src/main/main4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/LeshanClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/LeshanClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/LeshanClientBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/BootstrapResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/CaliforniumEndpointsManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/CaliforniumEndpointsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/CaliforniumLwM2mRequestSender$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/CaliforniumLwM2mRequestSender$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/CaliforniumLwM2mRequestSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/CoapRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/LwM2mClientResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/ObjectResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/ResourceObserveFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/ResourceUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/RootResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/classes/org/eclipse/leshan/client/californium/impl/SecurityObjectPskStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/leshan-client-cf-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/leshan-client-cf-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-cf/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/LwM2mClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/object/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/object/Security.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/object/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/observer/LwM2mClientObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/observer/LwM2mClientObserverAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/observer/LwM2mClientObserverDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/request/LwM2mRequestSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/request/ServerIdentity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/BaseInstanceEnabler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/BaseObjectEnabler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/LwM2mInstanceEnabler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/LwM2mInstanceEnablerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/LwM2mObjectEnabler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/NotifySender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/ObjectEnabler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/ObjectsInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/ResourceChangedListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/resource/SimpleInstanceEnabler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/servers/BootstrapHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/servers/BootstrapListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/servers/DmServerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/servers/EndpointsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/servers/RegistrationEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/servers/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/servers/ServerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/servers/ServersInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/servers/ServersInfoExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/java/org/eclipse/leshan/client/util/LinkFormatHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/main/main9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/test/java/org/eclipse/leshan/client/util/LinkFormatHelperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/src/test/test6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/LwM2mClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/object/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/object/Security.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/object/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/observer/LwM2mClientObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/observer/LwM2mClientObserverAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/observer/LwM2mClientObserverDispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/request/LwM2mRequestSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/request/ServerIdentity$Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/request/ServerIdentity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseInstanceEnabler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/BaseObjectEnabler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/LwM2mInstanceEnabler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/LwM2mInstanceEnablerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/LwM2mObjectEnabler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/NotifySender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ObjectEnabler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ObjectEnabler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ObjectsInitializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ObjectsInitializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ObjectsInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/ResourceChangedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/SimpleInstanceEnabler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/resource/SimpleInstanceEnabler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/BootstrapHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/BootstrapListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/DmServerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/EndpointsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/RegistrationEngine$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/RegistrationEngine$ClientInitiatedBootstrapTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/RegistrationEngine$RegistrationTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/RegistrationEngine$UpdateRegistrationTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/RegistrationEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/ServerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/ServersInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/servers/ServersInfoExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/util/LinkFormatHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/classes/org/eclipse/leshan/client/util/LinkFormatHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/leshan-client-core-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/leshan-client-core-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/surefire-reports/TEST-org.eclipse.leshan.client.util.LinkFormatHelperTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/surefire-reports/org.eclipse.leshan.client.util.LinkFormatHelperTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/test-classes/org/eclipse/leshan/client/util/LinkFormatHelperTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-core/target/test-classes/org/eclipse/leshan/client/util/LinkFormatHelperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/ActuatorDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LedActuator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LedSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClientDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClientDemo.java.save" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/TempSensorDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/TemperatureSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/models/BPMS_objects.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/models/BPMS_objects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/ActuatorDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LedController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/LeshanClientDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/MyDevice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/MyDevice$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/MyDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/MyDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/classes/org/eclipse/leshan/client/demo/TempSensorDevice$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-client-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/AbstractRequestObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/AsyncRequestObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/CoapAsyncRequestObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/CoapResponseCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/CoapSyncRequestObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/EndpointContextUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/EndpointFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/Lwm2mEndpointContextMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/ResponseCodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/SyncRequestObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/main/main1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/test/java/org/eclipse/leshan/core/californium/ResponseCodeUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/src/test/test4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/AbstractRequestObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/AsyncRequestObserver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/AsyncRequestObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapAsyncRequestObserver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapAsyncRequestObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapResponseCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/CoapSyncRequestObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/EndpointContextUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/EndpointFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/Lwm2mEndpointContextMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/ResponseCodeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/classes/org/eclipse/leshan/core/californium/SyncRequestObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/leshan-core-cf-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/leshan-core-cf-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/surefire-reports/TEST-org.eclipse.leshan.core.californium.ResponseCodeUtilTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/surefire-reports/org.eclipse.leshan.core.californium.ResponseCodeUtilTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core-cf/target/test-classes/org/eclipse/leshan/core/californium/ResponseCodeUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/Link.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/LwM2m.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/LwM2mId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/ResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/SecurityMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/attributes/AccessMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/attributes/AssignationLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/attributes/Attachment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/attributes/Attribute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/attributes/AttributeSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/DDFFileParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/Ddf2JsonGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/DdfList2JsonGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/LwM2mModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/ObjectLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/ObjectModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/ResourceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/json/JsonSerDes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/json/ObjectModelSerDes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/model/json/ResourceModelSerDes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/LwM2mMultipleResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/LwM2mNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/LwM2mNodeVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/LwM2mObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/LwM2mObjectInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/LwM2mPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/LwM2mResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/LwM2mSingleResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/ObjectLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/TimestampedLwM2mNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/CodecException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/DefaultLwM2mNodeDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/DefaultLwM2mNodeEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/DefaultLwM2mValueConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/LwM2mNodeDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/LwM2mNodeEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/LwM2mValueConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/json/LwM2mNodeJsonDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/json/LwM2mNodeJsonEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/opaque/LwM2mNodeOpaqueDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/opaque/LwM2mNodeOpaqueEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/text/LwM2mNodeTextDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/text/LwM2mNodeTextEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/tlv/LwM2mNodeTlvDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/node/codec/tlv/LwM2mNodeTlvEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/observation/Observation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/AbstractDownlinkRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/BindingMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/BootstrapDeleteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/BootstrapFinishRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/BootstrapRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/BootstrapWriteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/ContentFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/CreateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/DeleteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/DeregisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/DiscoverRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/DownLinkRequestVisitorAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/DownlinkRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/DownlinkRequestVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/ExecuteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/Identity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/LwM2mRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/ObserveRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/ReadRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/UpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/UplinkRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/UplinkRequestVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/WriteAttributesRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/WriteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/exception/ClientSleepingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/exception/InvalidRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/exception/InvalidResponseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/exception/RequestCanceledException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/exception/RequestRejectedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/exception/SendFailedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/request/exception/TimeoutException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/AbstractLwM2mResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/BootstrapDeleteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/BootstrapFinishResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/BootstrapResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/BootstrapWriteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/CreateResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/DeleteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/DeregisterResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/DiscoverResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/ErrorCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/ExecuteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/LwM2mResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/ObserveResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/ReadResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/RegisterResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/ResponseCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/UpdateResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/WriteAttributesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/core/response/WriteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/json/JsonArrayEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/json/JsonArrayEntrySerDes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/json/JsonRootObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/json/JsonRootObjectSerDes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/json/LwM2mJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/json/LwM2mJsonException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/tlv/Tlv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/tlv/TlvDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/tlv/TlvEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/tlv/TlvException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/util/Base64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/util/BaseNCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/util/Hex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/util/NamedThreadFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/util/RandomStringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/util/SecurityUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/util/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/java/org/eclipse/leshan/util/Validate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/main6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/resources/models/LWM2M_Access_Control-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/resources/models/LWM2M_Connectivity_Monitoring-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/resources/models/LWM2M_Connectivity_Statistics-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/resources/models/LWM2M_Device-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/resources/models/LWM2M_Firmware_Update-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/resources/models/LWM2M_Location-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/resources/models/LWM2M_Security-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/main/resources/models/LWM2M_Server-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/LinkObjectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/core/attributes/AttributeSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/core/attributes/AttributeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/core/node/LwM2MResourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/core/node/codec/LwM2mNodeDecoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/core/node/codec/LwM2mNodeEncoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/core/node/codec/Lwm2mValueConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/json/JsonDeserializerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/json/JsonSerializerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/json/ObjectModelSerDesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/tlv/TlvDecoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/java/org/eclipse/leshan/tlv/TlvEncoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/resources/model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/src/test/test1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/models/LWM2M_Access_Control-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/models/LWM2M_Connectivity_Monitoring-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/models/LWM2M_Connectivity_Statistics-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/models/LWM2M_Device-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/models/LWM2M_Firmware_Update-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/models/LWM2M_Location-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/models/LWM2M_Security-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/models/LWM2M_Server-v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/LwM2m.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/LwM2mId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/ResponseCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/SecurityMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/attributes/AccessMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/attributes/AssignationLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/attributes/Attachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/attributes/Attribute$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/attributes/Attribute$AttributeModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/attributes/Attribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/attributes/AttributeSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/DDFFileParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/Ddf2JsonGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/Ddf2JsonGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/DdfList2JsonGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/LwM2mModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/ObjectLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/ObjectModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/ResourceModel$Operations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/ResourceModel$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/ResourceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/json/JsonSerDes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/json/ObjectModelSerDes$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/json/ObjectModelSerDes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/model/json/ResourceModelSerDes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mMultipleResource$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mMultipleResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mNodeVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mObjectInstance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mSingleResource$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/LwM2mSingleResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/ObjectLink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/TimestampedLwM2mNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/CodecException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/DefaultLwM2mNodeDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/DefaultLwM2mNodeEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/DefaultLwM2mValueConverter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/DefaultLwM2mValueConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/LwM2mNodeDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/LwM2mNodeEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/LwM2mValueConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/json/LwM2mNodeJsonDecoder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/json/LwM2mNodeJsonDecoder$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/json/LwM2mNodeJsonDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/json/LwM2mNodeJsonEncoder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/json/LwM2mNodeJsonEncoder$InternalEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/json/LwM2mNodeJsonEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/opaque/LwM2mNodeOpaqueDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/opaque/LwM2mNodeOpaqueEncoder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/opaque/LwM2mNodeOpaqueEncoder$InternalEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/opaque/LwM2mNodeOpaqueEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/text/LwM2mNodeTextDecoder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/text/LwM2mNodeTextDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/text/LwM2mNodeTextEncoder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/text/LwM2mNodeTextEncoder$InternalEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/text/LwM2mNodeTextEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/tlv/LwM2mNodeTlvDecoder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/tlv/LwM2mNodeTlvDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/tlv/LwM2mNodeTlvEncoder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/tlv/LwM2mNodeTlvEncoder$InternalEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/node/codec/tlv/LwM2mNodeTlvEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/observation/Observation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/AbstractDownlinkRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/BindingMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/BootstrapDeleteRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/BootstrapFinishRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/BootstrapRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/BootstrapWriteRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/ContentFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/CreateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/DeleteRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/DeregisterRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/DiscoverRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/DownLinkRequestVisitorAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/DownlinkRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/DownlinkRequestVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/ExecuteRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/Identity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/LwM2mRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/ObserveRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/ReadRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/RegisterRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/UpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/UplinkRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/UplinkRequestVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/WriteAttributesRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/WriteRequest$Mode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/WriteRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/exception/ClientSleepingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/exception/InvalidRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/exception/InvalidResponseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/exception/RequestCanceledException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/exception/RequestRejectedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/exception/SendFailedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/request/exception/TimeoutException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/AbstractLwM2mResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/BootstrapDeleteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/BootstrapFinishResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/BootstrapResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/BootstrapWriteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/CreateResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/DeleteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/DeregisterResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/DiscoverResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/ErrorCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/ExecuteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/LwM2mResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/ObserveResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/ReadResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/RegisterResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/ResponseCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/UpdateResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/WriteAttributesResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/core/response/WriteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/json/JsonArrayEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/json/JsonArrayEntrySerDes$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/json/JsonArrayEntrySerDes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/json/JsonRootObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/json/JsonRootObjectSerDes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/json/LwM2mJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/json/LwM2mJsonException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/tlv/Tlv$TlvType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/tlv/Tlv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/tlv/TlvDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/tlv/TlvEncoder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/tlv/TlvEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/tlv/TlvException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/util/Base64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/util/BaseNCodec$Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/util/BaseNCodec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/util/Hex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/util/NamedThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/util/RandomStringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/util/SecurityUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/util/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/classes/org/eclipse/leshan/util/Validate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/leshan-core-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/leshan-core-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.LinkObjectTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.core.attributes.AttributeSetTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.core.attributes.AttributeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.core.node.LwM2MResourceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.core.node.codec.LwM2mNodeEncoderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.core.node.codec.Lwm2mValueConverterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.json.JsonDeserializerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.json.JsonSerializerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.json.ObjectModelSerDesTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.tlv.TlvDecoderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/TEST-org.eclipse.leshan.tlv.TlvEncoderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.LinkObjectTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.core.attributes.AttributeSetTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.core.attributes.AttributeTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.core.node.LwM2MResourceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.core.node.codec.LwM2mNodeDecoderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.core.node.codec.LwM2mNodeEncoderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.core.node.codec.Lwm2mValueConverterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.json.JsonDeserializerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.json.JsonSerializerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.json.ObjectModelSerDesTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.tlv.TlvDecoderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/surefire-reports/org.eclipse.leshan.tlv.TlvEncoderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/LinkObjectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/core/attributes/AttributeSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/core/attributes/AttributeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/core/node/LwM2MResourceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/core/node/codec/LwM2mNodeDecoderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/core/node/codec/LwM2mNodeEncoderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/core/node/codec/Lwm2mValueConverterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/json/JsonDeserializerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/json/JsonSerializerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/json/ObjectModelSerDesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/tlv/TlvDecoderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/leshan-core/target/test-classes/org/eclipse/leshan/tlv/TlvEncoderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/DEBIAN/control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/DEBIAN/md5sums" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/DEBIAN/postinst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/DEBIAN/postrm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/DEBIAN/preinst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/DEBIAN/prerm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/bin/pi4j" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/ADS1015DistanceSensorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/ADS1015GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/ADS1115DistanceSensorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/ADS1115GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/BlinkGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/BlinkTriggerGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/BroadcomPinNumberingGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/BroadcomPinNumberingGpioListenerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/ComputeModuleGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/ControlGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/CylonGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/DebounceGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/FrequencyGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/GpioInputAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/GpioInputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/GpioListenAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/GpioListenExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/GpioOutputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/GpioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/I2CExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/I2CWiiMotionPlusExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/IFTTTMakerChannelTriggerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/LcdExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/ListenGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/ListenMultipleGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP23017GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP23S17GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3004GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3004GpioExampleNonMonitored.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3008GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3008GpioExampleNonMonitored.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3204GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3204GpioExampleNonMonitored.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3208GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3208GpioExampleNonMonitored.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3424GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP3424GpioExampleNonMonitored.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MCP4725GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MaestroServoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/MultipurposePinGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/NonPrivilegedGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/OlimexGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/PCA9685GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/PCA9685GpioServoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/PCF8574GpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/PiFaceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/PiFaceGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/PibrellaExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/PwmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/RPIServoBlasterExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/SerialExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/ShutdownGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/SoftPwmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/SpiExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/StepperMotorGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/SystemInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/TriggerGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/UsageGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/W1TempExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/WDTExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/WiringPiGpioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/WiringPiGpioInterruptExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/WiringPiGpioInterruptExample2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/WiringPiLcdExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/WiringPiPinAltExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/WiringPiSPIExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/WiringPiSerialExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/WiringPiSoftPWMExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/GpioInputAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/GpioInputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/GpioListenAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/GpioListenExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/GpioOutputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/I2CExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/PwmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/SerialExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/SoftPwmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/SpiExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/SystemInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapi/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/GpioInputAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/GpioInputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/GpioListenAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/GpioListenExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/GpioOutputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/I2CExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/PwmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/SerialExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/SoftPwmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/SpiExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/SystemInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/bananapro/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/AnalogInputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/AnalogListenExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/GpioInputAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/GpioInputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/GpioListenAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/GpioListenExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/GpioOutputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/I2CExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/SerialExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/SoftPwmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/SpiExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/SystemInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/c1/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/AnalogInputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/AnalogListenExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/GpioInputAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/GpioInputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/GpioListenAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/GpioListenExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/GpioOutputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/I2CExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/SerialExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/SoftPwmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/SpiExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/SystemInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/odroid/xu4/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/GpioInputAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/GpioInputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/GpioListenAllExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/GpioListenExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/GpioOutputExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/I2CExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/SerialExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/SoftPwmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/SpiExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/SystemInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/orangepi/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/examples/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/lib/pi4j-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/lib/pi4j-device.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BPMS_RPi_leshan_client/tmp/opt/pi4j/lib/pi4j-gpio-extension.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/leshan-server-core/target/" />
     <ignored path="$PROJECT_DIR$/leshan-client-cf/target/" />
@@ -35,6 +699,7 @@
     <ignored path="$PROJECT_DIR$/leshan-client-core/target/" />
     <ignored path="$PROJECT_DIR$/leshan-server-cluster/target/" />
     <ignored path="$PROJECT_DIR$/leshan-integration-tests/target/" />
+    <ignored path="$PROJECT_DIR$/leshan-server-bpms/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,45 +710,48 @@
     <session id="-356084547">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="BPMS_objects" value="1" />
-          <entry key="java" value="19" />
+          <entry key="class" value="1" />
+          <entry key="java" value="29" />
           <entry key="json" value="3" />
-          <entry key="md" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="md" value="2" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="29" />
           <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="8" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="244" />
+          <entry key="java" value="251" />
           <entry key="json" value="111" />
-          <entry key="xml" value="37" />
+          <entry key="xml" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="244" />
+          <entry key="JAVA" value="251" />
           <entry key="JSON" value="111" />
-          <entry key="XML" value="37" />
+          <entry key="XML" value="45" />
         </counts>
       </usages-collector>
     </session>
@@ -91,10 +759,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/LeshanServerDemo.java">
+        <entry file="file://$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/LeshanServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="253" column="31" selection-start-line="253" selection-start-column="31" selection-end-line="253" selection-end-column="31" />
+            <state relative-caret-position="90">
+              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+              <folding>
+                <element signature="e#16554#17117#0" expanded="true" />
+                <element signature="e#17116#17117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,6 +782,8 @@
       <find>loadJsonStream</find>
       <find>builder.build();</find>
       <find>pi4`</find>
+      <find>dependen</find>
+      <find>coaps</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,7 +793,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/leshan-server-demo/src/main/resources/models/BPMS_objects" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/RegistrationManager.java" />
         <option value="$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/MonitorGui.java" />
         <option value="$PROJECT_DIR$/leshan-server-core/src/main/java/org/eclipse/leshan/server/queue/PresenceStateListener.java" />
@@ -127,9 +800,14 @@
         <option value="$PROJECT_DIR$/leshan-server-cluster/src/main/java/org/eclipse/leshan/server/cluster/RedisRegistrationEventPublisher.java" />
         <option value="$PROJECT_DIR$/leshan-server-cluster/src/main/java/org/eclipse/leshan/server/cluster/RedisTokenHandler.java" />
         <option value="$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/EventServlet.java" />
-        <option value="$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/LeshanServerDemo.java" />
         <option value="$PROJECT_DIR$/leshan-server-demo/src/main/resources/models/BPMS_objects.json" />
         <option value="$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/ObservationManager.java" />
+        <option value="$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/LeshanServerDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/servlet/EventServlet.java" />
+        <option value="$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/ObservationManager.java" />
+        <option value="$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/RegistrationManager.java" />
+        <option value="$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/LeshanServer.java" />
       </list>
     </option>
   </component>
@@ -139,20 +817,21 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1507" />
-    <option name="y" value="27" />
-    <option name="width" value="1070" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="322" />
+    <option name="y" value="108" />
+    <option name="width" value="928" />
+    <option name="height" value="992" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,25 +842,25 @@
             <path>
               <item name="leshan" type="b2602c69:ProjectViewProjectNode" />
               <item name="BPMS_leshan_server" type="462c0819:PsiDirectoryNode" />
-              <item name="leshan-server-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="leshan-server-bpms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leshan" type="b2602c69:ProjectViewProjectNode" />
               <item name="BPMS_leshan_server" type="462c0819:PsiDirectoryNode" />
-              <item name="leshan-server-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="leshan-server-bpms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leshan" type="b2602c69:ProjectViewProjectNode" />
               <item name="BPMS_leshan_server" type="462c0819:PsiDirectoryNode" />
-              <item name="leshan-server-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="leshan-server-bpms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leshan" type="b2602c69:ProjectViewProjectNode" />
               <item name="BPMS_leshan_server" type="462c0819:PsiDirectoryNode" />
-              <item name="leshan-server-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="leshan-server-bpms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -189,7 +868,7 @@
             <path>
               <item name="leshan" type="b2602c69:ProjectViewProjectNode" />
               <item name="BPMS_leshan_server" type="462c0819:PsiDirectoryNode" />
-              <item name="leshan-server-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="leshan-server-bpms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -198,28 +877,23 @@
             <path>
               <item name="leshan" type="b2602c69:ProjectViewProjectNode" />
               <item name="BPMS_leshan_server" type="462c0819:PsiDirectoryNode" />
-              <item name="leshan-server-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="leshan-server-bpms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leshan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BPMS_leshan_server" type="462c0819:PsiDirectoryNode" />
-              <item name="leshan-server-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541448397627" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BPMS_RPi_leshan_client" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -241,9 +915,56 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LeshanServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.eclipse.leshan.server.demo.LeshanServerDemo" />
-      <module name="leshan-server-demo" />
+    <configuration name="LeshanServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.eclipse.leshan.server.demo.LeshanServer" />
+      <module name="leshan-server-bpms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="BPMS_leshan_server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="BPMS_leshan_server" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -257,17 +978,30 @@
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce4a7cc1-c4e6-4063-98f4-edf70a052cd5" name="Default Changelist" comment="" />
+      <created>1540287212471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540287212471</updated>
+    </task>
+    <servers />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1507" y="27" width="1070" height="1050" extended-state="0" />
+    <frame x="322" y="108" width="928" height="992" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38671875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40929705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32858709" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3275463" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,13 +1009,15 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.4628821" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.4623431" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32982844" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.24958494" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -295,16 +1031,6 @@
     <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/resources/models/2053.xml" />
     <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/resources/models/BPMS_objects" />
     <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/resources/models/Communication_Characteristics-V1_0.xml" />
-    <entry file="file://$PROJECT_DIR$/leshan-server-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/leshan-core/src/main/java/org/eclipse/leshan/core/node/LwM2mSingleResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -319,24 +1045,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/MonitorGui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leshan-server-cluster/src/main/java/org/eclipse/leshan/server/cluster/RedisTokenHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/EventServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="91" column="70" lean-forward="true" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -368,51 +1080,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/ObservationData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/resources/models/oma-objects-spec.json">
+    <entry file="file://$PROJECT_DIR$/leshan-server-bpms/src/main/resources/models/oma-objects-spec.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/ObservationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/RegistrationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/resources/models/BPMS_objects.json">
+    <entry file="file://$PROJECT_DIR$/leshan-server-bpms/src/main/resources/models/BPMS_objects.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
           <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/servlet/EventServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="234" column="55" selection-start-line="234" selection-start-column="55" selection-end-line="234" selection-end-column="55" />
+        <state relative-caret-position="120">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/LeshanServerDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/leshan/leshan-server-core/1.0.0-M9/leshan-server-core-1.0.0-M9.jar!/org/eclipse/leshan/server/registration/RegistrationListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="253" column="31" selection-start-line="253" selection-start-column="31" selection-end-line="253" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/leshan/leshan-server-core/1.0.0-M9/leshan-server-core-1.0.0-M9-sources.jar!/org/eclipse/leshan/server/registration/RegistrationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/MonitorGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/RegistrationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/ObservationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leshan-server-bpms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/ObservationData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leshan-server-bpms/src/main/java/org/eclipse/leshan/server/demo/LeshanServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+          <folding>
+            <element signature="e#16554#17117#0" expanded="true" />
+            <element signature="e#17116#17117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
