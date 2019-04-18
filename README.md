@@ -106,8 +106,8 @@ For any feedback or questions do not hesitate to contact me.
 
 --- 
 ### Licence
-Copyright :copyright: 2018 Nick Nikitas
+Copyright © 2018 Nick Nikitas
 
-[Pi4J :copyright:](https://pi4j.com/1.2/license.html) 
+[Pi4J ©](https://pi4j.com/1.2/license.html) 
 
-[Eclipse Distribution License - v 1.0 :copyright:](https://www.eclipse.org/org/documents/edl-v10.php) 
+[Eclipse Distribution License - v 1.0 ©](https://www.eclipse.org/org/documents/edl-v10.php) 
